@@ -14,8 +14,8 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                     
-                    <x-nav-link href="#" :active="request()->routeIs('mahasiswa.*')">
-                        {{ __('Data Mahasiswa') }}
+                    <x-nav-link :href="route('mahasiswa.index')" :active="request()->routeIs('mahasiswa.*')">
+                         {{ __('Data Mahasiswa') }}
                     </x-nav-link>
 
                     <x-nav-link href="#" :active="request()->routeIs('kelas.*')">
