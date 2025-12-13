@@ -19,9 +19,7 @@
             <div class="absolute bottom-10 right-10 w-72 h-72 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
 
             <div class="relative z-10 mb-6">
-                <a href="/">
-                    <x-application-logo class="w-24 h-24 fill-current text-indigo-600 drop-shadow-lg" />
-                </a>
+                <img class="w-40 h-40" src="{{    asset("image/UTM.png") }}" alt="">
             </div>
 
             <div class="relative z-10 w-full sm:max-w-md mt-6 px-8 py-10 bg-white/80 backdrop-blur-xl shadow-2xl shadow-indigo-500/10 overflow-hidden sm:rounded-2xl border border-white/50">
