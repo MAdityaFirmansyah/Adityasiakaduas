@@ -18,8 +18,11 @@
                          {{ __('Data Mahasiswa') }}
                     </x-nav-link>
 
-                    <x-nav-link href="#" :active="request()->routeIs('kelas.*')">
+                    <x-nav-link :href="route('kelas.index')" :active="request()->routeIs('kelas.*')">
                         {{ __('Data Kelas') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('matakuliah.index')" :active="request()->routeIs('matakuliah.*')">
+                        {{ __('Mata Kuliah') }}
                     </x-nav-link>
                 </div>
             </div>
